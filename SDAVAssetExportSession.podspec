@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "kaiinui" => "lied.der.optik@gmail.com" }
   s.source       = { :git => "https://github.com/kaiinui/SDAVAssetExportSession.git", :tag => "v0.1.0" }
-  s.source_files  = "incam/Classes/**/*.{h,m}"
+  s.source_files  = "**/*.{h,m}"
   s.requires_arc = true
   s.platform = "ios", '7.0'
 end
